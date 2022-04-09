@@ -1,13 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
-
+import Cards from './components/cards' 
+  
 function App() {
   return (
     <div className="App">
+      <Cards />
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Esto si es <code>💻🥇programar🥇💻</code>, no la 💩 💩 que hace Livis...😄😆
         </p>
         <a
           className="App-link"
@@ -15,8 +15,8 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
-        </a>
+          Aprenda React 
+        </a> 💯👍
       </header>
     </div>
   );
