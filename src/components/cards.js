@@ -7,21 +7,30 @@ import { CardActionArea } from '@mui/material';
 
 export default function ActionAreaCard() {
   return (
-    <Card sx={{ bgcolor: 'antiquewhite', maxWidth: 345 }}>
-      <CardActionArea>
+    <Card sx={{ bgcolor: 'antiquewhite', maxWidth: "100%" }}>
+      <CardActionArea> 
         <CardMedia
           component="img"
-          height="140"
-          image="../images/DPOTU.jpg"
+          height="60%"
+          width="60%"
+          image="./images/DPOTU.jpg"
           alt="DPOTU"
         />
-        <CardContent>
-          <Typography gutterBottom variant="h5" component="div">
-            Lizard
+        <CardContent sx={{ maxWidth: "100%" }}>
+        <Typography sx={{ fontSize:"95%" }}>
+          <b>Departamento:</b>
+          <br />
+          XXXXXXXXX
           </Typography>
-          <Typography variant="body2" color="text.secondary">
-            Lizards are a widespread group of squamate reptiles, with over 6,000
-            species, ranging across all continents except Antarctica
+          <Typography sx={{ fontSize:"95%" }}>
+          <b>Fecha:</b>
+          <br />
+          XXXXXXXXX
+          </Typography>
+          <Typography sx={{ fontSize:"95%" }} variant="body1" color="text.secondary">
+            Tema:
+            <br />
+            XXXXXXXXX
           </Typography>
         </CardContent>
       </CardActionArea>
